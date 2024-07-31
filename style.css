@@ -343,7 +343,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    /*justify-content: space-around;*/ /*fixed the bug where the 5th and 6th skill in experience would mess up the formatting*/
     gap: 0.5rem;
 }
 
